@@ -241,5 +241,22 @@ const CoDHRTemplates = {
         <a href="projects.html#project-${params.id}" class="link--cta-leading">Read more about this project</a>
     </div>
 </div>
+    `,
+    collaborator: (params) => `
+<div class="aux-accordion aux-accordion--publication" id="accordionItem-${params.id}">
+    <span id="accordionID-${params.id}">
+        <h3>
+            <button aria-expanded="false" aria-label="${params.name}" class="aux-accordion-trigger" aria-controls="sect${params.id}">
+                <span class="aux-accordion__title">
+                    <span class="superhead">${params.rank}</span>
+                    <span class="ns-h3">${params.name}</span>
+                </span>
+            </button>
+        </h3>
+    </span>
+    <div class="aux-accordion-panel" hidden="" role="region" aria-labelledby="accordionID-${params.id} sect${params.id}" id="sect${params.id}">
+        ${params.projectList}
+    </div>
+</div>
     `
 }

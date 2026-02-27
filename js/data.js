@@ -6,6 +6,7 @@ const CoDHRProjects = {
         image: 'images/Beowulf.png',
         people: [
         {
+            id: "bmize",
             name: "Britt Mize",
             dept: "ENGL",
             rank: "Professor",
@@ -19,12 +20,14 @@ const CoDHRProjects = {
         image: 'images/LoreFest.jpg',
         people: [
             {
+                id: "mcampbell",
                 name: "Matthew Campbell",
                 dept: "PVFA",
                 rank: "Instructional Associate Professor",
                 link: 'https://pvfa.tamu.edu/staff/matthew-campbell/'
             },
             {
+                id: "wconnor",
                 name: "Will Connor",
                 dept: "PVFA",
                 rank: "Senior Lecturer",
@@ -38,6 +41,7 @@ const CoDHRProjects = {
         image: 'images/MELP.jpg',
         people: [
             {
+                id: "segenolf",
                 name: "Susan Egenolf",
                 dept: "ENGL",
                 rank: "Associate Professor",
@@ -51,18 +55,21 @@ const CoDHRProjects = {
         image: 'images/NLP.png',
         people: [
             {
+                id: "bbecktell",
                 name: "Bethany Becktell",
                 dept: "ANTH",
                 rank: "Graduate Student",
                 link: 'https://artsci.tamu.edu/anthropology/contact/profiles/bethany-becktell.html'
             },
             {
+                id: "dcarlson",
                 name: "Deborah Carlson",
                 dept: "ANTH",
                 rank: "Professor",
                 link: 'https://artsci.tamu.edu/anthropology/contact/profiles/deborah-carlson.html'
             },
             {
+                id: "czak",
                 name: "Claire Zak",
                 dept: "ANTH",
                 rank: "Graduate Student",
@@ -76,24 +83,28 @@ const CoDHRProjects = {
         image: 'images/NVS.png',
         people: [
             {
+                id: "kmay",
                 name: "Kris May",
                 dept: "ENGL",
                 rank: "Associate Digital Editor",
                 link: 'https://artsci.tamu.edu/english/contact/profiles/kris-may.html'
             },
             {
+                id: "rstagg",
                 name: "Robert Stagg",
                 dept: "ENGL",
                 rank: "Assistant Professor",
                 link: 'https://artsci.tamu.edu/english/contact/profiles/robert-stagg.html'
             },
             {
+                id: 'dtodd',
                 name: "Dorothy Todd",
                 dept: "ENGL",
                 rank: "Instructional Assistant Professor",
                 link: 'https://artsci.tamu.edu/english/contact/profiles/dorothy-todd.html'
             },
             {
+                id: "ktorabi",
                 name: "Katayoun Torabi",
                 dept: "ENGL",
                 rank: "Instructional Associate Professor",
@@ -107,6 +118,7 @@ const CoDHRProjects = {
         image: 'images/ODT.png',
         people: [
             {
+                id: "tuchacz",
                 name: "Tianna Uchacz",
                 dept: "PVFA",
                 rank: "Assistant Professor",
@@ -120,6 +132,7 @@ const CoDHRProjects = {
         image: 'images/PLAM.png',
         people: [
             {
+                id: "alagrand",
                 name: "Alexandra E. LaGrand",
                 dept: "ENGL",
                 rank: "Graduate Student",
@@ -133,6 +146,7 @@ const CoDHRProjects = {
         image: 'images/TAP.jpg',
         people: [
             {
+                id: "tuchacz",
                 name: "Tianna Uchacz",
                 dept: "PVFA",
                 rank: "Assistant Professor",
@@ -146,6 +160,7 @@ const CoDHRProjects = {
         image: 'images/Heritage.png',
         people: [
             {
+                id: "idworkin",
                 name: "Ira Dworkin",
                 dept: "ENGL",
                 rank: "Associate Professor",
@@ -159,6 +174,7 @@ const CoDHRProjects = {
         image: 'images/WORP.png',
         people: [
             {
+                id: "bfontes",
                 name: "Bruna Braga Fontes",
                 dept: "ENGL",
                 rank: "Graduate Student",
@@ -167,11 +183,12 @@ const CoDHRProjects = {
     },
     MappingVictory: {
         name: "Mapping Victory: U.S. Army Souvenir Maps from the European Theater of Operations, 1944-46",
-        link: null,
+        link: 'https://artsci.tamu.edu/history/outreach/public-history-projects/mapping-victory-world-war-ii-u.s-service-unit-maps.html',
         desc: `During the summer of 1945, hundreds of U.S. Army units in Europe produced souvenir maps for their soldiers to take home. This project is digitizing and annotating the 130 maps in the collection at Texas A&M's Cushing Library — the largest in the world.`,
         image: 'images/MappingVictory.jpg',
         people: [
             {
+                id: "aseipp",
                 name: "Adam Seipp",
                 dept: "HIST",
                 rank: "Professor",
@@ -185,6 +202,7 @@ const CoDHRProjects = {
         image: 'images/AwakeInTheDark.jpeg',
         people: [
             {
+                id: "hhammonds",
                 name: "Hollis Hammonds",
                 dept: "PVFA",
                 rank: "Associate Professor",

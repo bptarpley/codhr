@@ -44,6 +44,45 @@ function makeCoDHRFeaturedProjectList() {
     return html
 }
 
+function makeCollaboratorList() {
+    let html = ''
+    let collaborators = {}
+
+    forEachKey(CoDHRProjects, projectID => {
+        let project = CoDHRProjects[projectID]
+        project.people.forEach(person => {
+            if (!(person.id in collaborators)) {
+                collaborators[person.id] = person
+                collaborators[person.id].projects = []
+            }
+
+            collaborators[person.id].projects.push(projectID)
+        })
+    })
+
+    let sortedCollaboratorKeys = sortKeysByLastName(collaborators)
+
+    sortedCollaboratorKeys.forEach(collaboratorKey => {
+        let collaborator = collaborators[collaboratorKey]
+
+        html += CoDHRTemplates.collaborator({
+            id: collaborator.id,
+            name: collaborator.name,
+            rank: collaborator.rank,
+            projectList: 'projects'
+        })
+    })
+
+    return html
+}
+
+function sortKeysByLastName(obj) {
+    return Object.keys(obj).sort((a, b) => {
+        const lastName = key => obj[key].name.split(' ').slice(-1)[0];
+        return lastName(a).localeCompare(lastName(b));
+    });
+}
+
 // for getting/manipulating DOM
 function getEl(id) { return document.getElementById(id) }
 function getElWithQuery(query) { return document.querySelector(query) }
