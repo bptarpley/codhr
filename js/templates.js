@@ -133,70 +133,48 @@ const CoDHRTemplates = {
     footer: (params) => `
 <footer class="footer--slim">
     <div class="footer__container">
-        <div class="footer__columns">
-            <div class="footer__column footer__column--identity">
-                <div class="identity identity--stacked">
-                    <a href="#">
-                        <div class="identity__logo">
-                            <img alt="Texas A&amp;M University logo" src="https://aux.tamu.edu/logos/boxTAM.svg" />
-                        </div>
-                        <div class="identity__wordmark">
-                            <span class="wordmark__small">Texas A&amp;M University</span>
-                            <span class="wordmark__large">Center of Digital Humanities Research</span>
-                        </div>
-                    </a>
-                </div>
-            </div>
-            <div class="footer__column column__links">
-                <span class="column__header">Footer Column Heading</span>
+      <div class="footer__columns">
+        <div class="footer__column footer__column--identity">
+      
+  <div class="identity identity--stacked">
+    <a href="#">
+      <div class="identity__logo">
+        <img alt="Texas A&amp;M University logo" src="https://aux.tamu.edu/logos/boxTAM.svg">
+      </div>
+      <div class="identity__wordmark">
+        <span class="wordmark__small">Texas A&amp;M University </span>
+        <span class="wordmark__large">Center of Digital Humanities Research</span>
+      </div>
+    </a>
+  </div>
 
-                <div class="link-list link-list--leading">
-                    <ul>
-                        <li>
-                            <a href="#">This is a link</a>
-                        </li>
-                        <li>
-                            <a href="#">This is a link</a>
-                        </li>
-                        <li>
-                            <a href="#">This is a link</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="footer__column column__links">
-                <span class="column__header">Footer Column Heading</span>
-
-                <div class="link-list link-list--leading">
-                    <ul>
-                        <li>
-                            <a href="#">This is a link</a>
-                        </li>
-                        <li>
-                            <a href="#">This is a link</a>
-                        </li>
-                        <li>
-                            <a href="#">This is a link</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+    </div> <div class="footer__column">
+      <span class="column__header">Visit Us</span>
+      <address>
+        <p>Evans Library Annex, 5th Floor</p>
+        <p>Texas A&amp;M University</p>
+        <p>College Station, TX 77843</p>
+      </address>
+    </div> 
+      <div class="footer__column column__links">
+        <span class="column__header">Email Us</span>
+        <p>
+          codhr@tamu.edu
+        </p>
+      </div>
+    
+      </div>
     </div>
     <div class="footer__compliance-wrapper">
-        <div class="footer__compliance">
-            <ul class="compliance__list">
-                <li>
-                    © 2025
-                    <a href="#">Texas A&amp;M University</a>
-                </li>
-                <li><a href="#">Site Policies</a></li>
-                <li><a href="#">Accessibility</a></li>
-            </ul>
-        </div>
+      <div class="footer__compliance">
+        <ul class="compliance__list">
+          <li>© 2023 <a href="#">Texas A&amp;M University</a></li>
+          <li><a href="#">Site Policies</a></li>
+          <li><a href="#">Accessibility</a></li>
+        </ul>
+      </div>
     </div>
-</footer>
+  </footer>
     `,
     project: (params) => `
 <div id="project-${params.id}" class="card card--inline card--program">
@@ -243,20 +221,12 @@ const CoDHRTemplates = {
 </div>
     `,
     collaborator: (params) => `
-<div class="aux-accordion aux-accordion--publication" id="accordionItem-${params.id}">
-    <span id="accordionID-${params.id}">
-        <h3>
-            <button aria-expanded="false" aria-label="${params.name}" class="aux-accordion-trigger" aria-controls="sect${params.id}">
-                <span class="aux-accordion__title">
-                    <span class="superhead">${params.rank}</span>
-                    <span class="ns-h3">${params.name}</span>
-                </span>
-            </button>
-        </h3>
-    </span>
-    <div class="aux-accordion-panel" hidden="" role="region" aria-labelledby="accordionID-${params.id} sect${params.id}" id="sect${params.id}">
-        ${params.projectList}
+<a href="#" aria-label="${params.name}" class="directory__listing">
+    <div class="listing__info">
+        <span class="name">${params.name}</span>
+        <span class="title">${params.rank}, ${params.dept}</span>
     </div>
-</div>
+    <img alt="#" src="https://aggieux.tamu.edu/assets/no-photo-BueebA7L.jpg">
+</a>
     `
 }

@@ -22,14 +22,14 @@ const CoDHRProjects = {
             {
                 id: "mcampbell",
                 name: "Matthew Campbell",
-                dept: "PVFA",
+                dept: "PERF",
                 rank: "Instructional Associate Professor",
                 link: 'https://pvfa.tamu.edu/staff/matthew-campbell/'
             },
             {
                 id: "wconnor",
                 name: "Will Connor",
-                dept: "PVFA",
+                dept: "PERF",
                 rank: "Senior Lecturer",
                 link: 'https://pvfa.tamu.edu/staff/dr-william-klugh-connor-iii/'
             }]
@@ -57,21 +57,21 @@ const CoDHRProjects = {
             {
                 id: "bbecktell",
                 name: "Bethany Becktell",
-                dept: "ANTH",
+                dept: "NAP",
                 rank: "Graduate Student",
                 link: 'https://artsci.tamu.edu/anthropology/contact/profiles/bethany-becktell.html'
             },
             {
                 id: "dcarlson",
                 name: "Deborah Carlson",
-                dept: "ANTH",
+                dept: "NAP",
                 rank: "Professor",
                 link: 'https://artsci.tamu.edu/anthropology/contact/profiles/deborah-carlson.html'
             },
             {
                 id: "czak",
                 name: "Claire Zak",
-                dept: "ANTH",
+                dept: "NAP",
                 rank: "Graduate Student",
                 link: 'https://artsci.tamu.edu/anthropology/contact/profiles/claire-zak.html'
             }]
@@ -120,7 +120,7 @@ const CoDHRProjects = {
             {
                 id: "tuchacz",
                 name: "Tianna Uchacz",
-                dept: "PVFA",
+                dept: "VIZ",
                 rank: "Assistant Professor",
                 link: 'https://pvfa.tamu.edu/staff/tianna-helena-uchacz/'
             }]
@@ -148,7 +148,7 @@ const CoDHRProjects = {
             {
                 id: "tuchacz",
                 name: "Tianna Uchacz",
-                dept: "PVFA",
+                dept: "VIZ",
                 rank: "Assistant Professor",
                 link: 'https://pvfa.tamu.edu/staff/tianna-helena-uchacz/'
             }]
@@ -204,9 +204,17 @@ const CoDHRProjects = {
             {
                 id: "hhammonds",
                 name: "Hollis Hammonds",
-                dept: "PVFA",
+                dept: "VIZ",
                 rank: "Associate Professor",
                 link: 'https://pvfa.tamu.edu/staff/hollis-hammonds/'
             }]
     }
+}
+
+const CoDHRDepartments = {
+    ENGL: "English",
+    HIST: "History",
+    NAP: "Nautical Archaeology Program",
+    VIZ: "Visualization",
+    PERF: "Performance and Visual Studies"
 }
