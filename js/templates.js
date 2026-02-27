@@ -132,49 +132,40 @@ const CoDHRTemplates = {
     `,
     footer: (params) => `
 <footer class="footer--slim">
-    <div class="footer__container">
-      <div class="footer__columns">
-        <div class="footer__column footer__column--identity">
-      
-  <div class="identity identity--stacked">
-    <a href="#">
-      <div class="identity__logo">
-        <img alt="Texas A&amp;M University logo" src="https://aux.tamu.edu/logos/boxTAM.svg">
-      </div>
-      <div class="identity__wordmark">
-        <span class="wordmark__small">Texas A&amp;M University </span>
-        <span class="wordmark__large">Center of Digital Humanities Research</span>
-      </div>
-    </a>
-  </div>
-
-    </div> <div class="footer__column">
-      <span class="column__header">Visit Us</span>
-      <address>
-        <p>Evans Library Annex, 5th Floor</p>
-        <p>Texas A&amp;M University</p>
-        <p>College Station, TX 77843</p>
-      </address>
-    </div> 
-      <div class="footer__column column__links">
-        <span class="column__header">Email Us</span>
-        <p>
-          codhr@tamu.edu
-        </p>
-      </div>
+  <div class="footer__container">
+    <div class="footer__columns"><div class="footer__column footer__column--identity">
     
-      </div>
+    <div class="identity">
+      <a href="#">
+        <div class="identity__logo">
+          <img alt="Texas A&amp;M University logo" src="https://aux.tamu.edu/logos/boxTAM.svg">
+        </div>
+        <div class="identity__wordmark">
+          <span class="wordmark__small">Texas A&amp;M University </span>
+          <span class="wordmark__large">Center of Digital Humanities Research</span>
+        </div>
+      </a>
     </div>
-    <div class="footer__compliance-wrapper">
-      <div class="footer__compliance">
-        <ul class="compliance__list">
-          <li>© 2023 <a href="#">Texas A&amp;M University</a></li>
-          <li><a href="#">Site Policies</a></li>
-          <li><a href="#">Accessibility</a></li>
-        </ul>
-      </div>
+  
+  </div> <div class="footer__column">
+    <span class="column__header">Visit Us</span>
+    <address>
+      <p>Evans Library Annex, 5th Floor</p>
+      <p>Texas A&amp;M University</p>
+      <p>College Station, TX 77843</p>
+    </address>
+  </div></div>
+  </div>
+  <div class="footer__compliance-wrapper">
+    <div class="footer__compliance">
+      <ul class="compliance__list">
+        <li>© 2023 <a href="#">Texas A&amp;M University</a></li>
+        <li><a href="#">Site Policies</a></li>
+        <li><a href="#">Accessibility</a></li>
+      </ul>
     </div>
-  </footer>
+  </div>
+</footer>
     `,
     project: (params) => `
 <div id="project-${params.id}" class="card card--inline card--program">
