@@ -1,0 +1,12 @@
+a.tag--category.tag--person {
+    display: flex!important;
+    gap: 5px;
+    align-items: center;
+    text-transform: none;
+}
+
+a.tag--category.tag--person svg {
+    fill: #500000;
+    height: 20px;
+    width: 20px;
+}
