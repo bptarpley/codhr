@@ -11,6 +11,8 @@ a.tag--category.tag--person svg {
     width: 20px;
 }
 
+.mobile-toggle { cursor: pointer; }
+
 @media (max-width: 769px) {
     .flex-sm-column-reverse {
         flex-direction: column-reverse!important;
