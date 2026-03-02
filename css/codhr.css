@@ -11,7 +11,7 @@ a.tag--category.tag--person svg {
     width: 20px;
 }
 
-.mobile-toggle { cursor: pointer; }
+.mobile-toggle, .mobile-toggle__menu { cursor: pointer; }
 
 @media (max-width: 769px) {
     .flex-sm-column-reverse {
