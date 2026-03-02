@@ -68,6 +68,7 @@ function makeCollaboratorList() {
         html += CoDHRTemplates.collaborator({
             id: collaborator.id,
             name: collaborator.name,
+            link: collaborator.link,
             dept: CoDHRDepartments[collaborator.dept],
             rank: collaborator.rank,
         })

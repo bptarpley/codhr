@@ -29,25 +29,12 @@ const CoDHRTemplates = {
                 </div>
             </a>
         </div>
-        <div class="search" style="display: none;">
-            <form class="search__form">
-                <label for="search" class="sr-only">Search</label>
-                <input type="search" name="search" placeholder="" id="search" class="search__input" />
-
-                <button type="submit" class="btn btn--primary btn--icon">
-                    Search
-                    <svg>
-                        <use href="#aux_magnifying-glass"></use>
-                    </svg>
-                </button>
-            </form>
-        </div>
     </div>
     <nav class="site-header__nav">
         <ol class="menu">
-            <li class="menu-item"><a href="about.html">About</a></li>
-            <li class="menu-item"><a href="projects.html">Projects</a></li>
-            <li class="menu-item"><a href="programs.html">Programs</a></li>
+            <li class="menu-item"><a href="about.html" ${params.page === 'About' ? 'class="active"' : ''}>About</a></li>
+            <li class="menu-item"><a href="projects.html" ${params.page === 'Projects' ? 'class="active"' : ''}>Projects</a></li>
+            <li class="menu-item"><a href="programs.html" ${params.page === 'Programs' ? 'class="active"' : ''}>Programs</a></li>
         </ol>
     </nav>
 </header>
@@ -88,9 +75,9 @@ const CoDHRTemplates = {
                 </button>
             </div>
             <div class="mobile-nav__primary">
-                <a class="mobile-nav__item" href="about.html">About</a>
-                <a class="mobile-nav__item" href="projects.html">Projects</a>
-                <a class="mobile-nav__item" href="programs.html">Programs</a>
+                <a class="mobile-nav__item" href="about.html" ${params.page === 'About' ? 'class="active"' : ''}>About</a>
+                <a class="mobile-nav__item" href="projects.html" ${params.page === 'Projects' ? 'class="active"' : ''}>Projects</a>
+                <a class="mobile-nav__item" href="programs.html" ${params.page === 'Programs' ? 'class="active"' : ''}>Programs</a>
             </div>
         </div>
     </div>
@@ -178,7 +165,7 @@ const CoDHRTemplates = {
 </div>
     `,
     collaborator: (params) => `
-<a href="#" aria-label="${params.name}" class="directory__listing">
+<a href="${params.link}" target="_blank" aria-label="${params.name}" class="directory__listing">
     <div class="listing__info">
         <span class="name">${params.name}</span>
         <span class="title">${params.rank}, ${params.dept}</span>

@@ -152,7 +152,7 @@
 <script>
     document.addEventListener("DOMContentLoaded", function() {
         let body = getElWithQuery("body")
-        prependToEl(body, CoDHRTemplates.header({}))
+        prependToEl(body, CoDHRTemplates.header({page: 'About'}))
         appendToEl(body, CoDHRTemplates.footer({}))
         loadScript("https://aux.tamu.edu/v1.13.2/js/aux-main-nav.js")
         loadScript("https://aux.tamu.edu/v1.13.2/js/aux-mobile-nav.js")
