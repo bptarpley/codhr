@@ -37,6 +37,7 @@ function makeCoDHRFeaturedProjectList() {
             id: projectID,
             name: project.name,
             image: project.image,
+            imageAlt: project.imageAlt,
             link: project.link,
             desc: project.desc,
         })
