@@ -4,7 +4,7 @@ const CoDHRTemplates = {
     <nav class="utility-nav utility-nav--department">
         <div class="utility-nav__container">
             <div class="site-header__back">
-                <a href="#">
+                <a href="https://www.tamu.edu/" target="_blank">
                     <svg>
                         <use href="#aux_arrow-up-right"></use>
                     </svg>
@@ -29,7 +29,7 @@ const CoDHRTemplates = {
                 </div>
             </a>
         </div>
-        <div class="search">
+        <div class="search" style="display: none;">
             <form class="search__form">
                 <label for="search" class="sr-only">Search</label>
                 <input type="search" name="search" placeholder="" id="search" class="search__input" />
@@ -63,7 +63,7 @@ const CoDHRTemplates = {
     </div>
     <div class="mobile-header__identity">
         <div class="identity">
-            <a href="#">
+            <a href="/">
                 <div class="identity__logo">
                     <img alt="Texas A&amp;M University logo" src="https://aux.tamu.edu/logos/boxTAM.svg" />
                 </div>
@@ -79,12 +79,6 @@ const CoDHRTemplates = {
             Menu
             <div class="menu__icon"><span></span></div>
         </button>
-        <button class="mobile-toggle__quicklinks-search">
-            Search
-            <svg>
-                <use href="#aux_search"></use>
-            </svg>
-        </button>
     </div>
     <div class="nav-overlay" style="display: none;">
         <div class="mobile-nav" style="display: none;">
@@ -97,34 +91,6 @@ const CoDHRTemplates = {
                 <a class="mobile-nav__item" href="about.html">About</a>
                 <a class="mobile-nav__item" href="projects.html">Projects</a>
                 <a class="mobile-nav__item" href="programs.html">Programs</a>
-            </div>
-        </div>
-
-        <div class="mobile-search" style="display: none;">
-            <div class="mobile-search__top">
-                <span class="mobile-search__heading">Search</span>
-
-                <button class="close" aria-controls="quicklinks-search" aria-expanded="false" aria-pressed="false" data-megamenu="quicklinks-search" title="close quicklinks and search">
-                    Close
-                </button>
-            </div>
-
-            <div class="mobile-search__container">
-                <div class="search">
-                    <form class="search__form">
-                        <label for="search" class="sr-only">Search</label>
-
-                        <input type="search" name="search" placeholder="" id="search" class="search__input" />
-
-                        <button type="submit" class="btn btn--primary btn--icon">
-                            Search
-
-                            <svg>
-                                <use href="#aux_angles-right"></use>
-                            </svg>
-                        </button>
-                    </form>
-                </div>
             </div>
         </div>
     </div>
@@ -159,9 +125,9 @@ const CoDHRTemplates = {
   <div class="footer__compliance-wrapper">
     <div class="footer__compliance">
       <ul class="compliance__list">
-        <li>© 2023 <a href="#">Texas A&amp;M University</a></li>
-        <li><a href="#">Site Policies</a></li>
-        <li><a href="#">Accessibility</a></li>
+        <li>© ${new Date().getFullYear()} <a href="https://www.tamu.edu/">Texas A&amp;M University</a></li>
+        <li><a href="https://library.tamu.edu/about/compliance">Site Policies</a></li>
+        <li><a href="https://library.tamu.edu/services/accessibility">Accessibility</a></li>
       </ul>
     </div>
   </div>

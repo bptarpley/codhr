@@ -124,3 +124,12 @@ function getRandomKeys(obj, count = 3) {
 
     return result
 }
+function loadScript(src) {
+    return new Promise((resolve, reject) => {
+        const script = document.createElement('script')
+        script.src = src
+        script.onload = resolve
+        script.onerror = reject
+        document.body.appendChild(script)
+    })
+}

@@ -10,3 +10,13 @@ a.tag--category.tag--person svg {
     height: 20px;
     width: 20px;
 }
+
+@media (max-width: 576px) {
+    .flex-sm-column-reverse {
+        flex-direction: column-reverse!important;
+    }
+
+    .sm-pt {
+        padding-top: 24px;
+    }
+}

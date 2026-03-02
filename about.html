@@ -42,7 +42,7 @@
                 </div>
                 <p class="page-header__description">
                     It’s our great pleasure to announce that the Center of Digital Humanities Research
-                    has migrated to the TAMU Libraries, and is currently housed within the
+                    has migrated to the TAMU Libraries, and is currently housed within
                     <a href="https://library.tamu.edu/services/scholarly_communication/index" target="_blank">Scholarly Communications and Data Services.</a>
                     We’ve been hard at work ensuring the continuity
                     of our projects and services using new Libraries affordances. Our website is in its
@@ -146,8 +146,6 @@
 
 <script src="https://aux.tamu.edu/v1.13.2/js/jquery-3.7.1.min.js"></script>
 <script src="https://aux.tamu.edu/v1.13.2/js/aux-accordion.js" defer></script>
-<script src="https://aux.tamu.edu/v1.13.2/js/aux-main-nav.js" defer></script>
-<script src="https://aux.tamu.edu/v1.13.2/js/aux-mobile-nav.js" defer></script>
 <script src="js/templates.js"></script>
 <script src="js/data.js"></script>
 <script src="js/codhr.js"></script>
@@ -156,6 +154,8 @@
         let body = getElWithQuery("body")
         prependToEl(body, CoDHRTemplates.header({}))
         appendToEl(body, CoDHRTemplates.footer({}))
+        loadScript("https://aux.tamu.edu/v1.13.2/js/aux-main-nav.js")
+        loadScript("https://aux.tamu.edu/v1.13.2/js/aux-mobile-nav.js")
 
         let icons = new XMLHttpRequest();
         icons.open("GET", "https://aux.tamu.edu/icons/aux-sprite.svg", true);
