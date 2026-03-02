@@ -18,6 +18,7 @@ function makeCoDHRProjectCards() {
             name: project.name,
             desc: project.desc,
             image: project.image,
+            imageAlt: project.imageAlt,
             link: project.link
         })
     })

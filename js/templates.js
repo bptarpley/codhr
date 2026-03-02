@@ -123,7 +123,7 @@ const CoDHRTemplates = {
     project: (params) => `
 <div id="project-${params.id}" class="card card--inline card--program">
 <div class="card__image">
-    <img src="${params.image}" alt="${params.name}">
+    <img src="${params.image}" alt="${params.imageAlt}">
 </div>
 <div class="card__content">
 
@@ -149,7 +149,7 @@ const CoDHRTemplates = {
     featuredProject: (params) => `
 <div class="card card--inline">
     <div class="card__image">
-        <img src="${params.image}" alt="${params.name}">
+        <img src="${params.image}" alt="${params.imageAlt}">
     </div>
     <div class="card__content">
         <div class="heading-group">

@@ -4,6 +4,7 @@ const CoDHRProjects = {
         link: "https://beowulf.dh.tamu.edu",
         desc: `The Beowulf's Afterlives Bibliographic Database is the most comprehensive record of texts, representations, and adaptations of Beowulf from 1705 to the present, in all languages, genres, and media forms.`,
         image: 'images/Beowulf.png',
+        imageAlt: 'A snippet of a Beowulf-inspired comic book page.',
         people: [
         {
             id: "bmize",
@@ -18,6 +19,7 @@ const CoDHRProjects = {
         link: "https://www.lorefest.com",
         desc: `Lorefest seeks to unite Bryan-College Station’s diverse cultural communities in the creative preservation and expansion of local folklore.`,
         image: 'images/LoreFest.jpg',
+        imageAlt: `An image of two students in costume performing a skit for Lore Fest.`,
         people: [
             {
                 id: "mcampbell",
@@ -39,6 +41,7 @@ const CoDHRProjects = {
         link: "https://mariaedgeworth.org",
         desc: `The Maria Edgeworth Letters Project is a collaborative digital edition of letters written by Maria Edgeworth and shared by over 30 archives around the world.`,
         image: 'images/MELP.jpg',
+        imageAlt: `A page from a letter signed by Maria Edgeworth.`,
         people: [
             {
                 id: "segenolf",
@@ -53,6 +56,7 @@ const CoDHRProjects = {
         link: "https://lexicon.dh.tamu.edu/",
         desc: `The Nautical Lexicon Project is an open-access, interactive, and comprehensive digital site and database of nautical terms.`,
         image: 'images/NLP.png',
+        imageAlt: `A snippet depicting the database search tool for the Nautical Lexicon Project.`,
         people: [
             {
                 id: "bbecktell",
@@ -81,6 +85,7 @@ const CoDHRProjects = {
         link: "https://newvariorumshakespeare.org/",
         desc: `The New Variorum Shakespeare contains the complete text of Shakespearean plays along with a full collation of textual notes from the earliest editions to the present, including extensive previous commentary.`,
         image: 'images/NVS.png',
+        imageAlt: `A snippet of the variorum viewer interface for the New Variorum Shakespeare.`,
         people: [
             {
                 id: "kmay",
@@ -116,6 +121,7 @@ const CoDHRProjects = {
         link: "https://odtproject.org",
         desc: `Ornament : Design : Translation is an open-access web resource for the study of early modern European ornament prints and the remediation of design.`,
         image: 'images/ODT.png',
+        imageAlt: `A snippet of the ornament viewing interface for the Ornament Design Translation project.`,
         people: [
             {
                 id: "tuchacz",
@@ -130,6 +136,7 @@ const CoDHRProjects = {
         link: "https://pointslikeaman.com",
         desc: `Points Like A Man catalogues and curates records of individual Shakespearean breeches performances by actresses from 1660 to 1900.`,
         image: 'images/PLAM.png',
+        imageAlt: `A snippet depicting the database search tool for the Points Like a Man Project.`,
         people: [
             {
                 id: "alagrand",
@@ -144,6 +151,7 @@ const CoDHRProjects = {
         link: "https://texasartproject.org",
         desc: `The Texas Art Project promotes the history and legacy of art in Texas through a major art donation, series of exhibitions, and pedagogical initiatives that draw on art collections across the state.`,
         image: 'images/TAP.jpg',
+        imageAlt: `A snippet of a painting of the Gulf of Mexico by Buck Schiwetz as featured by the Texas Art Project.`,
         people: [
             {
                 id: "tuchacz",
@@ -158,6 +166,7 @@ const CoDHRProjects = {
         link: "https://heritage.dh.tamu.edu",
         desc: `This variorum edition is based on the premise that there is no authoritative copy text from which to trace the editorial lineage of Countee Cullen’s “Heritage.”`,
         image: 'images/Heritage.png',
+        imageAlt: `A snippet of the variorum viewer interface for 'Heritage' by Countee Cullen.`,
         people: [
             {
                 id: "idworkin",
@@ -172,6 +181,7 @@ const CoDHRProjects = {
         link: "https://worp.dh.tamu.edu",
         desc: `The Web of Royalist Publishing aims to create a Gephi network visualization of early modern royalist booksellers who published the Eikon Basilike, especially during the 1650s.`,
         image: 'images/WORP.png',
+        imageAlt: `A network graph depicting the relationships of various Early Modern printers.`,
         people: [
             {
                 id: "bfontes",
@@ -186,6 +196,7 @@ const CoDHRProjects = {
         link: 'https://artsci.tamu.edu/history/outreach/public-history-projects/mapping-victory-world-war-ii-u.s-service-unit-maps.html',
         desc: `During the summer of 1945, hundreds of U.S. Army units in Europe produced souvenir maps for their soldiers to take home. This project is digitizing and annotating the 130 maps in the collection at Texas A&M's Cushing Library — the largest in the world.`,
         image: 'images/MappingVictory.jpg',
+        imageAlt: `A snippet of a World War II souvenir map as featured by the Mapping Victory project.`,
         people: [
             {
                 id: "aseipp",
@@ -200,6 +211,7 @@ const CoDHRProjects = {
         link: 'https://www.artleaguehouston.org/the-river-entered-my-home',
         desc: `CoDHR is collaborating with Dr. Hammonds to both capture and present an immersive VR/AR experience of her physical art installation <em>The River Entered My Home</em>.`,
         image: 'images/AwakeInTheDark.jpeg',
+        imageAlt: `A photo of the exhibit titled 'The River Entered My Home' by Hollis Hammonds.`,
         people: [
             {
                 id: "hhammonds",
