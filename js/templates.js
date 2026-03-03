@@ -86,6 +86,7 @@ const CoDHRTemplates = {
             <div class="footer__column mobile-width-100">
                 <span class="column__header mobile-text-center">Visit Us</span>
                 <address class="mobile-margins-auto">
+                    <p>Office Suite 3.501</p>
                     <p>Evans Library Annex, 5th Floor</p>
                     <p>Texas A&amp;M University</p>
                     <p>College Station, TX 77843</p>
