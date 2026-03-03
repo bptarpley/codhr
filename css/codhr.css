@@ -1,3 +1,12 @@
+.codhr-logo-horizontal {
+    max-height: 150px;
+    width: auto;
+}
+
+.codhr-logo-vertical {
+
+}
+
 a.tag--category.tag--person {
     display: flex!important;
     gap: 5px;

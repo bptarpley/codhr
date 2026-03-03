@@ -20,13 +20,7 @@ const CoDHRTemplates = {
     <div class="site-header__identity">
         <div class="identity">
             <a href="/">
-                <div class="identity__logo">
-                    <img alt="Texas A&amp;M University logo" src="https://aux.tamu.edu/logos/boxTAM.svg" />
-                </div>
-                <div class="identity__wordmark">
-                    <span class="wordmark__small">Texas A&amp;M University</span>
-                    <span class="wordmark__large">Center of Digital Humanities Research</span>
-                </div>
+                <img class="codhr-logo-horizontal" alt="Center of Digital Humanities Research at the Texas A&M University Libraries" src="images/logo_horizontal.png">
             </a>
         </div>
     </div>
@@ -51,13 +45,7 @@ const CoDHRTemplates = {
     <div class="mobile-header__identity">
         <div class="identity">
             <a href="/">
-                <div class="identity__logo">
-                    <img alt="Texas A&amp;M University logo" src="https://aux.tamu.edu/logos/boxTAM.svg" />
-                </div>
-                <div class="identity__wordmark">
-                    <span class="wordmark__small">Texas A&amp;M University</span>
-                    <span class="wordmark__large">Center of Digital Humanities Research</span>
-                </div>
+                <img class="codhr-logo-vertical" alt="Center of Digital Humanities Research at the Texas A&M University Libraries" src="images/logo_vertical.png">
             </a>
         </div>
     </div>
