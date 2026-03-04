@@ -209,7 +209,7 @@ const CoDHRProjects = {
     ArtInVR: {
         name: 'The River Entered My Home',
         link: 'https://www.artleaguehouston.org/the-river-entered-my-home',
-        desc: `CoDHR is collaborating with Dr. Hammonds to both capture and present an immersive VR/AR experience of her physical art installation <em>The River Entered My Home</em>.`,
+        desc: `CoDHR is collaborating with Hammonds to both capture and present an immersive VR/AR experience of her physical art installation <em>The River Entered My Home</em>.`,
         image: 'images/AwakeInTheDark.jpeg',
         imageAlt: `A photo of the exhibit titled 'The River Entered My Home' by Hollis Hammonds.`,
         people: [
