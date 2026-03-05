@@ -88,6 +88,13 @@ const CoDHRProjects = {
         imageAlt: `A snippet of the variorum viewer interface for the New Variorum Shakespeare.`,
         people: [
             {
+                id: "lmandell",
+                name: "Laura Mandell",
+                dept: "ENGL",
+                rank: "Professor",
+                link: "https://artsci.tamu.edu/english/contact/profiles/laura-mandell.html"
+            },
+            {
                 id: "kmay",
                 name: "Kris May",
                 dept: "ENGL",
