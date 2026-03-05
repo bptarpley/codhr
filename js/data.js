@@ -32,8 +32,8 @@ const CoDHRProjects = {
     CHA: {
         name: "Cultural Heritage Archive",
         link: "https://cha.artsci.tamu.edu/",
-        desc: `The <em>Cultural Heritage Archive</em> (CHA) provides long-term sustainability for your TEI-encoded digital edition or resource.`,
-        image: 'images/ARC.png',
+        desc: `The Cultural Heritage Archive (CHA) provides long-term sustainability for your TEI-encoded digital edition or resource.`,
+        image: 'images/cha.png',
         imageAlt: 'A snippet of the TEI edition of Lyrical Ballads.',
         people: [
         {
@@ -187,8 +187,8 @@ const CoDHRProjects = {
         name: "Poetess Archive",
         link: "http://www.poetessarchive.org",
         desc: `The Poetess Archive constitutes a resource for studying the literary history of popular British and American poetry. The Poetess Archive Database now contains a bibliography of over 4,000 entries for works by and about writers working in and against the "poetess tradition," the extraordinarily popular, but much criticized, flowery poetry written in Britain and America between 1750 and 1900.`,
-        image: 'images/ARC.png',
-        imageAlt: 'Portrait of Christina Rossetti',
+        image: 'images/poetess.jpg',
+        imageAlt: 'Portrait of Christina Rossetti.',
         people: [
         {
             id: "lmandell",
@@ -231,7 +231,7 @@ const CoDHRProjects = {
     WORP: {
         name: 'Web of Royalist Publishing',
         link: "https://worp.dh.tamu.edu",
-        desc: `<em>The Web of Royalist Publishing</em> aims to create a Gephi network visualization of seventeenth-century royalist booksellers in London, starting with the Seile family’s nearly sixty years of publishing activity.`,
+        desc: `The Web of Royalist Publishing aims to create a Gephi network visualization of seventeenth-century royalist booksellers in London, starting with the Seile family’s nearly sixty years of publishing activity.`,
         image: 'images/WORP.png',
         imageAlt: `A network graph depicting the relationships of various Early Modern printers.`,
         people: [
