@@ -201,7 +201,7 @@ const CoDHRProjects = {
     WORP: {
         name: 'Web of Royalist Publishing',
         link: "https://worp.dh.tamu.edu",
-        desc: `The Web of Royalist Publishing aims to create a Gephi network visualization of early modern royalist booksellers who published the Eikon Basilike, especially during the 1650s.`,
+        desc: `<em>The Web of Royalist Publishing</em> aims to create a Gephi network visualization of seventeenth-century royalist booksellers in London, starting with the Seile family’s nearly sixty years of publishing activity.`,
         image: 'images/WORP.png',
         imageAlt: `A network graph depicting the relationships of various Early Modern printers.`,
         people: [
