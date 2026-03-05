@@ -14,6 +14,21 @@ const CoDHRProjects = {
             link: "https://artsci.tamu.edu/english/contact/profiles/britt-mize.html"
         }]
     },
+    ARC: {
+        name: "Catalog for the Advanced Research Consortium",
+        link: "https://ar-c.org",
+        desc: "The Advanced Research Consortium is a hub of humanities research nodes focused on aggregating and peer reviewing digital archives, collections, and research resources.",
+        image: 'images/ARC.png',
+        imageAlt: 'The logo for the Advanced Research Consortium',
+        people: [
+        {
+            id: "lmandell",
+            name: "Laura Mandell",
+            dept: "ENGL",
+            rank: "Professor",
+            link: "https://artsci.tamu.edu/english/contact/profiles/laura-mandell.html"
+        }]
+    },
     Lorefest: {
         name: "Lorefest",
         link: "https://www.lorefest.com",
