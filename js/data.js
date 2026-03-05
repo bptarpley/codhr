@@ -17,7 +17,7 @@ const CoDHRProjects = {
     ARC: {
         name: "Catalog for the Advanced Research Consortium",
         link: "https://ar-c.org",
-        desc: "The Advanced Research Consortium is a hub of humanities research nodes focused on aggregating and peer reviewing digital archives, collections, and research resources.",
+        desc: `The Advanced Research Consortium is a hub of humanities research nodes focused on aggregating and peer reviewing digital archives, collections, and research resources.`,
         image: 'images/ARC.png',
         imageAlt: 'The logo for the Advanced Research Consortium.',
         people: [
@@ -32,7 +32,7 @@ const CoDHRProjects = {
     CHA: {
         name: "Cultural Heritage Archive",
         link: "https://cha.artsci.tamu.edu/",
-        desc: "The <em>Cultural Heritage Archive</em> (CHA) provides long-term sustainability for your TEI-encoded digital edition or resource.",
+        desc: `The <em>Cultural Heritage Archive</em> (CHA) provides long-term sustainability for your TEI-encoded digital edition or resource.`,
         image: 'images/ARC.png',
         imageAlt: 'A snippet of the TEI edition of Lyrical Ballads.',
         people: [
@@ -186,7 +186,7 @@ const CoDHRProjects = {
     Poetess: {
         name: "Poetess Archive",
         link: "http://www.poetessarchive.org",
-        desc: "The Poetess Archive constitutes a resource for studying the literary history of popular British and American poetry. The Poetess Archive Database now contains a bibliography of over 4,000 entries for works by and about writers working in and against the "poetess tradition," the extraordinarily popular, but much criticized, flowery poetry written in Britain and America between 1750 and 1900.",
+        desc: `The Poetess Archive constitutes a resource for studying the literary history of popular British and American poetry. The Poetess Archive Database now contains a bibliography of over 4,000 entries for works by and about writers working in and against the "poetess tradition," the extraordinarily popular, but much criticized, flowery poetry written in Britain and America between 1750 and 1900.`,
         image: 'images/ARC.png',
         imageAlt: 'Portrait of Christina Rossetti',
         people: [
