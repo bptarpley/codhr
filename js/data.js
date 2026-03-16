@@ -69,7 +69,7 @@ const CoDHRProjects = {
     MELP: {
         name: "Maria Edgeworth Letters Project",
         link: "https://mariaedgeworth.org",
-        desc: `The Maria Edgeworth Letters Project is a collaborative digital edition of letters written by Maria Edgeworth and shared by over 30 archives around the world.`,
+        desc: `The <em>Maria Edgeworth Letters Project</em> is a collaborative digital edition of letters written by (and sometimes to) the Irish novelist and educationalist Maria Edgeworth (1768-1849), featuring a growing and searchable database of her correspondence sourced from more than thirty archives. This digital archive of Edgeworth’s letters will allow scholars and the public to map her correspondence network, identify her extensive reading practice, construct a nuanced understanding of her engagement with political and intellectual trends over time and expand knowledge of her writing and revision processes throughout her prolific career.`,
         image: 'images/MELP.jpg',
         imageAlt: `A page from a letter signed by Maria Edgeworth.`,
         people: [
