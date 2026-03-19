@@ -44,6 +44,21 @@ const CoDHRProjects = {
             link: "https://artsci.tamu.edu/english/contact/profiles/laura-mandell.html"
         }]
     },
+    LTDMME: {
+        name: "Linking Texts and Data from the Medieval Middle East",
+        link: "https://syriaca.org",
+        desc: `Linking Texts and Data from the Medieval Middle East expands data related to the primary sources included in Syraca.org, an online hub that hosts an advanced corpus of Syriac texts in translation, alongside contextual discovery tools.`,
+        image: 'images/ltdmme.png',
+        imageAlt: 'A snippet of Syriac handwriting.',
+        people: [
+        {
+            id: "dschwartz",
+            name: "Daniel L. Schwartz",
+            dept: "HIST",
+            rank: "Associate Professor",
+            link: "https://artsci.tamu.edu/history/contact/profiles/daniel-l-schwartz.html"
+        }]
+    },
     Lorefest: {
         name: "Lorefest",
         link: "https://www.lorefest.com",
