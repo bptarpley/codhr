@@ -260,7 +260,7 @@ const CoDHRProjects = {
     },
     MappingVictory: {
         name: "Mapping Victory: U.S. Army Souvenir Maps from the European Theater of Operations, 1944-46",
-        link: 'https://artsci.tamu.edu/history/outreach/public-history-projects/mapping-victory-world-war-ii-u.s-service-unit-maps.html',
+        link: 'https://mappingvictory.org',
         desc: `In the immediate aftermath of World War II, hundreds of U.S. Army units in Europe produced souvenir maps for their soldiers to send home. <em>Mapping Victory</em> brings together more than 130 of these remarkable artifacts, which are early eyewitness accounts of the war as experienced by American soldiers.`,
         image: 'images/MappingVictory.jpg',
         imageAlt: `A snippet of a World War II souvenir map as featured by the Mapping Victory project.`,
