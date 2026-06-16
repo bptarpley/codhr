@@ -49,5 +49,7 @@ a.tag--category.tag--person svg {
     .hero .hero__image {
         width: auto;
         max-height: 400px;
+        aspect-ratio: unset!important;
+        height: unset!important;
     }
 }
