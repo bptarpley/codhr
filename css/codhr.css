@@ -44,3 +44,10 @@ a.tag--category.tag--person svg {
         margin: 0 auto;
     }
 }
+
+@media (min-width: 993px) {
+    .hero .hero__image {
+        width: auto;
+        max-height: 400px;
+    }
+}
