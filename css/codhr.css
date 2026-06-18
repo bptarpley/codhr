@@ -46,10 +46,10 @@ a.tag--category.tag--person svg {
 }
 
 @media (min-width: 993px) {
-    .hero .hero__image {
-        width: auto;
+    .hero .hero__image img {
+        width: 100%;
+        object-fit: cover;
+        z-index: -999;
         max-height: 400px;
-        aspect-ratio: unset!important;
-        height: unset!important;
     }
 }
