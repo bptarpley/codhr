@@ -51,6 +51,10 @@ a.tag--category.tag--person svg {
         object-fit: cover;
         z-index: -999;
         max-height: 400px;
+    }
+
+    .hero .hero__image {
         aspect-ratio: unset;
+        height: auto;
     }
 }
