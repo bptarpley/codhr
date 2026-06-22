@@ -290,6 +290,16 @@ const CoDHRProjects = {
     }
 }
 
+const CoDHRSpeakers = [
+    {
+        name: "Scott Kleinman",
+        job_title: "Professor, California State University, Northridge; Director, Center for Digital Humanities; Associate Technical Editor, New Variorum Shakespeare",
+        speech_title: `Modelling Premodern and Early Modern Languages and Literatures`,
+        date: 'April 9th, 2026',
+        image: 'images/speakers/scott-kleinman.jpg',
+    },
+]
+
 const CoDHRDepartments = {
     ENGL: "English",
     HIST: "History",

@@ -158,5 +158,24 @@ const CoDHRTemplates = {
     </div>
     <img alt="#" src="https://aggieux.tamu.edu/assets/no-photo-BueebA7L.jpg">
 </a>
+    `,
+    speaker: (params) => `
+<div class="card card--inline card--program">
+    <div class="card__image">
+        <img src="${params.image}" alt="${params.name}">
+    </div>
+    <div class="card__content">
+        <span class="ns-h3 card-content__program ">${params.name}</span>
+        <p class="card__description">
+            ${params.job_title}
+        </p>
+        <div class="media-contact">
+            <div class="media-contact__info">
+                <p class="name">${params.speech_title}</p>
+                <p class="title">${params.date}</p>
+            </div>
+        </div>
+    </div>
+</div>
     `
 }

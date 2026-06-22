@@ -79,6 +79,16 @@ function makeCollaboratorList() {
     return html
 }
 
+function makeCoDHRSpeakerCards() {
+    let html = ''
+
+    CoDHRSpeakers.forEach(speaker => {
+        html += CoDHRTemplates.speaker(speaker)
+    })
+
+    return html
+}
+
 function sortKeysByLastName(obj) {
     return Object.keys(obj).sort((a, b) => {
         const lastName = key => obj[key].name.split(' ').slice(-1)[0];
