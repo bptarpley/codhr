@@ -298,6 +298,55 @@ const CoDHRSpeakers = [
         date: 'April 9th, 2026',
         image: 'images/speakers/scott-kleinman.jpg',
     },
+    {
+        name: "Quinn Daedal",
+        job_title: "Academic Technology Specialist, Stanford University",
+        speech_title: `Data You Can Touch: Preserving What You Love on an Uncertain Internet`,
+        date: 'January 28, 2025',
+        image: 'images/speakers/quinn-daedal.jpg',
+    },
+    {
+        name: "Christy Hyman",
+        job_title: "",
+        speech_title: `Slavery, Artificial Life and Free Agents: A GIS Framework of Liberation`,
+        date: 'November 6, 2024',
+        image: 'images/speakers/christy-hyman.jpg',
+    },
+     {
+        name: "Kate Ozment",
+        job_title: "Director, Freedman Center for Digital Scholarship, Case Western Reserve University",
+        speech_title: `Digital Humanities Praxis from the Classroom to the Library`,
+        date: 'October 16, 2024',
+        image: 'images/speakers/kate-ozment.jpg',
+    },
+    {
+        name: "Luciano Frizzera",
+        job_title: "Senior Research Associate, University of Guelph",
+        speech_title: `Affect, Power, and Subjectivation on Kaggle’s AI Competitions`,
+        date: 'September 17, 2024',
+        image: 'images/speakers/luciano-frizzera.jpg',
+    },
+    {
+        name: "Roopika Risam",
+        job_title: "Associate Professor, Dartmouth College",
+        speech_title: `Make Like Frozen and 'Let It Go!': A Minimal Computing Approach to Sustainability for Digital Humanities Projects`,
+        date: 'April 24, 2024',
+        image: 'images/speakers/roopika-risam.jpg',
+    },
+    {
+        name: "Alison Langmead",
+        job_title: "Clinical Associate Professor, University of Pittsburgh; Director, Visual Media Workshop",
+        speech_title: `Sustainability in the Age of 'Generative' Computation`,
+        date: 'February 28, 2024',
+        image: 'images/speakers/alison-langmead.jpg',
+    },
+    {
+        name: "Jentery Sayers",
+        job_title: "Associate Professor, University of Victoria; Director, Media Studies Program",
+        speech_title: `Degrowing Digital Projects`,
+        date: 'November 15, 2023',
+        image: 'images/speakers/jentery-sayers.jpg',
+    },
 ]
 
 const CoDHRDepartments = {
