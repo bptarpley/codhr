@@ -213,6 +213,21 @@ const CoDHRProjects = {
             link: "https://artsci.tamu.edu/english/contact/profiles/laura-mandell.html"
         }]
     },
+    Reord: {
+        name: "Reord",
+        link: "https://github.com/bptarpley/reord",
+        desc: `Reord is a software plugin that works with an existing open-source screen-reader called Non-Visual Desktop Access (NVDA) to make Old English more accessible for visually impaired students.`,
+        image: 'images/reord.jpg',
+        imageAlt: '',
+        people: [
+        {
+            id: "bmize",
+            name: "Britt Mize",
+            dept: "ENGL",
+            rank: "Professor",
+            link: "https://artsci.tamu.edu/english/contact/profiles/britt-mize.html"
+        }]
+    },
     TAP: {
         name: "Texas Art Project",
         link: "https://texasartproject.org",
