@@ -299,6 +299,13 @@ const CoDHRSpeakers = [
         image: 'images/speakers/scott-kleinman.jpg',
     },
     {
+        name: "Lawrence Jackson",
+        job_title: "Bloomberg Distinguished Professor, Johns Hopkins University",
+        speech_title: `Revisiting Baltimore's African American History: Archives and Curated Digital Public Exhibits`,
+        date: 'March 27, 2025',
+        image: 'images/speakers/lawrence-jackson.jpg',
+    },
+    {
         name: "Quinn Daedal",
         job_title: "Academic Technology Specialist, Stanford University",
         speech_title: `Data You Can Touch: Preserving What You Love on an Uncertain Internet`,
@@ -307,7 +314,7 @@ const CoDHRSpeakers = [
     },
     {
         name: "Christy Hyman",
-        job_title: "",
+        job_title: "Postdoctoral Fellow, Cornell University; Assistant Professor, University of North Carolina at Charlotte",
         speech_title: `Slavery, Artificial Life and Free Agents: A GIS Framework of Liberation`,
         date: 'November 6, 2024',
         image: 'images/speakers/christy-hyman.jpg',
