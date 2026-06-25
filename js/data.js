@@ -64,19 +64,19 @@ const CoDHRProjects = {
         link: "https://www.lorefest.com",
         desc: `Lorefest seeks to unite Bryan-College Station’s diverse cultural communities in the creative preservation and expansion of local folklore.`,
         image: 'images/LoreFest.jpg',
-        imageAlt: `An image of two students in costume performing a skit for Lore Fest.`,
+        imageAlt: `An image of two students in costume Performing a skit for Lore Fest.`,
         people: [
             {
                 id: "mcampbell",
                 name: "Matthew Campbell",
-                dept: "PERF",
+                dept: "PVFA",
                 rank: "Instructional Associate Professor",
                 link: 'https://pvfa.tamu.edu/staff/matthew-campbell/'
             },
             {
                 id: "wconnor",
                 name: "Will Connor",
-                dept: "PERF",
+                dept: "PVFA",
                 rank: "Senior Lecturer",
                 link: 'https://pvfa.tamu.edu/staff/dr-william-klugh-connor-iii/'
             }]
@@ -178,7 +178,7 @@ const CoDHRProjects = {
             {
                 id: "tuchacz",
                 name: "Tianna Uchacz",
-                dept: "VIZ",
+                dept: "PVFA",
                 rank: "Assistant Professor",
                 link: 'https://pvfa.tamu.edu/staff/tianna-helena-uchacz/'
             }]
@@ -238,7 +238,7 @@ const CoDHRProjects = {
             {
                 id: "tuchacz",
                 name: "Tianna Uchacz",
-                dept: "VIZ",
+                dept: "PVFA",
                 rank: "Assistant Professor",
                 link: 'https://pvfa.tamu.edu/staff/tianna-helena-uchacz/'
             }]
@@ -298,7 +298,7 @@ const CoDHRProjects = {
             {
                 id: "hhammonds",
                 name: "Hollis Hammonds",
-                dept: "VIZ",
+                dept: "PVFA",
                 rank: "Associate Professor",
                 link: 'https://pvfa.tamu.edu/staff/hollis-hammonds/'
             }]
@@ -375,6 +375,5 @@ const CoDHRDepartments = {
     ENGL: "English",
     HIST: "History",
     NAP: "Nautical Archaeology Program",
-    VIZ: "Visualization",
-    PERF: "Performance and Visual Studies"
+    PVFA: "Performance, Visualization, and Fine Arts"
 }
