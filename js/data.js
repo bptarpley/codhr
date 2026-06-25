@@ -217,8 +217,8 @@ const CoDHRProjects = {
         name: "Reord",
         link: "https://github.com/bptarpley/reord",
         desc: `Reord is a software plugin that works with an existing open-source screen-reader called Non-Visual Desktop Access (NVDA) to make Old English more accessible for visually impaired students.`,
-        image: 'images/reord.jpg',
-        imageAlt: '',
+        image: 'images/Beowulf_Cotton_MS_Vitellius_A_XV_f._132r.jpg',
+        imageAlt: 'First page of Beowulf in Cotton Vitellius A. xv.',
         people: [
         {
             id: "bmize",
