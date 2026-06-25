@@ -112,12 +112,12 @@ const CoDHRTemplates = {
     <img src="${params.image}" alt="${params.imageAlt}">
 </div>
 <div class="card__content">
-
-    <ul class="tag-collection ">
+    <span class="ns-h3 card-content__program "><a href="${params.link}" class="link--cta" target="_blank">${params.name}</a></span>
+    
+    <ul class="tag-collection mt-2">
         ${params.people.join('\n')}
     </ul>
-
-    <span class="ns-h3 card-content__program "><a href="${params.link}" class="link--cta" target="_blank">${params.name}</a></span>
+    
     <p class="card__description">
         ${params.desc}
     </p>

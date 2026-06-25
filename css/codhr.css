@@ -57,4 +57,16 @@ a.tag--category.tag--person svg {
         aspect-ratio: unset;
         height: auto;
     }
+
+    .program-card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* or: repeat(2, 1fr) */
+        gap: 16px; /* optional spacing between cells */
+        max-width: 1400px;
+        margin: 0 auto 20px auto;
+    }
+
+    .card--program {
+        margin-bottom: unset;
+    }
 }
