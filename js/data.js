@@ -228,6 +228,21 @@ const CoDHRProjects = {
             link: "https://artsci.tamu.edu/english/contact/profiles/britt-mize.html"
         }]
     },
+    STP: {
+        name: "Syriac Translation Project",
+        link: "https://syriaca.org",
+        desc: `This project explores the limits of AI translation for under-represented languages using a corpus of public domain ancient Syriac texts and frontier LLM models.`,
+        image: 'images/STP.png',
+        imageAlt: 'A snippet of Syriac handwriting.',
+        people: [
+            {
+                id: "dschwartz",
+                name: "Daniel L. Schwartz",
+                dept: "HIST",
+                rank: "Associate Professor",
+                link: "https://artsci.tamu.edu/history/contact/profiles/daniel-l-schwartz.html"
+            }]
+    },
     TAP: {
         name: "Texas Art Project",
         link: "https://texasartproject.org",
