@@ -29,6 +29,7 @@ const CoDHRTemplates = {
             <li class="menu-item"><a href="about.html" ${params.page === 'About' ? 'class="active"' : ''}>About</a></li>
             <li class="menu-item"><a href="projects.html" ${params.page === 'Projects' ? 'class="active"' : ''}>Projects</a></li>
             <li class="menu-item"><a href="programs.html" ${params.page === 'Programs' ? 'class="active"' : ''}>Programs</a></li>
+            <li class="menu-item"><a href="events.html" ${params.page === 'Events' ? 'class="active"' : ''}>Events</a></li>
         </ol>
     </nav>
 </header>
@@ -66,6 +67,7 @@ const CoDHRTemplates = {
                 <a class="mobile-nav__item" href="about.html" ${params.page === 'About' ? 'class="active"' : ''}>About</a>
                 <a class="mobile-nav__item" href="projects.html" ${params.page === 'Projects' ? 'class="active"' : ''}>Projects</a>
                 <a class="mobile-nav__item" href="programs.html" ${params.page === 'Programs' ? 'class="active"' : ''}>Programs</a>
+                <a class="mobile-nav__item" href="events.html" ${params.page === 'Events' ? 'class="active"' : ''}>Events</a>
             </div>
         </div>
     </div>
