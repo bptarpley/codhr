@@ -21,6 +21,11 @@ a.tag--category.tag--person svg {
     width: 20px;
 }
 
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
 .mobile-toggle, .mobile-toggle__menu { cursor: pointer; }
 
 @media (max-width: 992px) {
