@@ -384,6 +384,20 @@ const CoDHRSpeakers = [
         date: 'November 15, 2023',
         image: 'images/speakers/jentery-sayers.jpg',
     },
+    {
+        name: "Jessie Contour",
+        job_title: "Associate Professor of Practice, Arts and Entertainment Technologies, University of Texas at Austin",
+        speech_title: `Illuminating Dropcaps: The Magic of the Collaborative Process`,
+        date: 'October 30, 2026',
+        image: 'images/speakers/jessie-contour.png',
+    },
+    {
+        name: "Kelcey Gray",
+        job_title: "Associate Professor of Practice, Design, University of Texas at Austin",
+        speech_title: `Illuminating Dropcaps: The Magic of the Collaborative Process`,
+        date: 'October 30, 2026',
+        image: 'images/speakers/kelcey-gray.png',
+    },
 ]
 
 const CoDHRDepartments = {
